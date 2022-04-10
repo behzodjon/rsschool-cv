@@ -20,6 +20,7 @@ Learner who is curious about gaining new knowledge and excited about coding. Cur
 - HTML5, CSS3
 - JavaScript 
 - Vue js(Javascript framework) 
+- Nuxt js(Vue js framework) 
 - PHP 
 - Git, GitHub
 - VS Code
