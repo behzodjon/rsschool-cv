@@ -1,8 +1,3 @@
-:root {
-    --dark-gray-color: #505050;
-    --ligth-gray-color: #777777;
-  }
-  
   body {
     box-sizing: border-box;
     background-color: #f5f5f5;
@@ -18,13 +13,9 @@
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
   }
   
-  .two-columns {
-    display: flex;
-  }
-  
   .left-column {
     width: 42%;
-    color: var(--dark-gray-color);
+    color:#505050;
   }
   
   .right-column {
@@ -73,7 +64,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #ffffff;
-    background-color: var(--dark-gray-color);
+    background-color:#505050;
   }
   
   main .contacts h3 {
@@ -98,7 +89,7 @@
   
   .contacts a {
     text-decoration: none;
-    color: var(--dark-gray-color);
+    color:#505050;
   }
   
   main :not(.contacts) ul {
@@ -136,8 +127,8 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--ligth-gray-color);
-    border-bottom: 2px solid var(--ligth-gray-color);
+    color: #777777;
+    border-bottom: 2px solid #777777;
   }
   
   .right-column img {
@@ -146,7 +137,7 @@
   }
   
   .right-column p {
-    color: var(--ligth-gray-color);
+    color: #777777;
   }
   
   .education p {
@@ -165,7 +156,7 @@
   
   .courses li {
     margin-bottom: 10px;
-    color: var(--ligth-gray-color);
+    color: #777777;
   }
   
   .right-column img.score-img {
@@ -189,7 +180,7 @@
     padding: 20px;
     font-size: 0.8rem;
     color: #ffffff;
-    background-color: var(--dark-gray-color);
+    background-color:#505050;
   }
   
   footer a {
