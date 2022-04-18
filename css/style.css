@@ -12,12 +12,12 @@
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
   }
   
-  .left-column {
+  .left-side {
     width: 42%;
     color:#505050;
   }
   
-  .right-column {
+  .right-side {
     width: 57%;
     padding: 40px;
   }
@@ -101,13 +101,13 @@
     text-transform: uppercase;
   }
   
-  .right-column .sub-header {
+  .right-side .sub-header {
     display: flex;
     margin-top: 30px;
     margin-bottom: 15px;
   }
   
-  .right-column .about-myself .sub-header {
+  .right-side .about-myself .sub-header {
     margin-top: 0;
   }
   
@@ -120,7 +120,7 @@
     margin-bottom: 0;
   }
   
-  .right-column h3 {
+  .right-side h3 {
     flex: 1;
     vertical-align: middle;
     font-weight: 700;
@@ -130,12 +130,12 @@
     border-bottom: 2px solid #777777;
   }
   
-  .right-column img {
+  .right-side img {
     vertical-align: middle;
     margin-right: 15px;
   }
   
-  .right-column p {
+  .right-side p {
     color: #777777;
   }
   
@@ -158,7 +158,7 @@
     color: #777777;
   }
   
-  .right-column img.score-img {
+  .right-side img.score-img {
     display: block;
     margin: 0 auto;
   }
@@ -168,7 +168,7 @@
     margin-left: 0;
     margin-top: 20px;
     font-family: monospace;
-    font-size: 0.9rem;
+    font-size: 14px;
     background-color: #f5f5f5;
   }
   
@@ -177,7 +177,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    font-size: 0.8rem;
+    font-size: 16px;
     color: #ffffff;
     background-color:#505050;
   }

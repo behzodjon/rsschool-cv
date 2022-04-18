@@ -6,9 +6,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rsschool-cv-html</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,12 +13,15 @@
 <body>
     <div class="container-centered">
         <div class="flex">
-            <div class="left-column">
+            <!-- left side -->
+            <aside class="left-side">
+                <!-- header -->
                 <header>
                     <img class="portrait" src="./images/me.jpg" alt="Portrait" width="204" height="204">
                     <h1>Behzod Xudoyberdi</h1>
                     <h2>Full-stack developer</h2>
                 </header>
+                <!-- main -->
                 <main>
                     <section class="contacts">
                         <h3>Contacts</h3>
@@ -75,8 +75,9 @@
                         </ul>
                     </section>
                 </main>
-            </div>
-            <aside class="right-column">
+            </aside>
+            <!-- right side -->
+            <aside class="right-side">
                 <section class="about-myself">
                     <div class="sub-header">
                         <img src="./images/icons/myself.svg" alt="About Myself Icon" width="30" height="30">
@@ -117,6 +118,8 @@
                 </section>
             </aside>
         </div>
+
+        <!-- footer section -->
         <footer>
             <a class="my-github" href="https://github.com/behzodjon">
                 <img class="github-icon" src="./images/icons/github.svg" alt="Github Icon" width="26" height="26">
