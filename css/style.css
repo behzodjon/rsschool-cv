@@ -6,7 +6,6 @@
   .container-centered {
     margin: 20px auto;
     width: 1024px;
-    font-family: "Cabin", sans-serif;
     font-size: 18px;
     line-height: 1.5;
     background-color: #ffffff;
@@ -19,7 +18,7 @@
   }
   
   .right-column {
-    width: 58%;
+    width: 57%;
     padding: 40px;
   }
   
