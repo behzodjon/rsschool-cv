@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsschool-cv-html</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-centered">
+        <nav class="nav">
+            <ul class="nav-list flex ">
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#example" class="nav-link">Example</a></li>            
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              </ul>
+        </nav>
+        <div class="flex">
+            <!-- left side -->
+            <div class="left-side">
+                <!-- header -->
+                <header>
+                    <img class="portrait" src="./images/me.jpg" alt="Portrait" width="204" height="204">
+                    <h1>Behzod Xudoyberdi</h1>
+                    <h2>Full-stack developer</h2>
+                </header>
+                <!-- main -->
+                <main>
+                    <section  id="contacts" class="contacts">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li>
+                                <img src="./images/icons/phone.svg" alt="Phone Icon" width="30" height="30">
+                                <p>+998919586636</p>
+                            </li>
+                            <li class="flex">
+                                <img src="./images/icons/email.svg" alt="Email Icon" width="30" height="30">
+                                <p>behzodjontuit1998@gmail.com</p>
+                            </li>
+                            <li>
+                                <img src="./images/icons/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                                <p>@behzodjon</p>
+                            </li>
+
+                            <li>
+                                <img src="./images/icons/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+                                <a target="_blank" href="https://www.linkedin.com/in/behzod-xudoyberdi/">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section  id="skills" class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML5, CSS3</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            <li>Tailwind css(Css framework)</li>
+                            <li>Laravel(PHP framework)</li>
+                        </ul>
+                    </section>
+                 
+                    <section id="education" class="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <p >Tashkent University of Information Technologies, Computer Engineering (2017-2021)</p>
+                            </li>
+                        </ul>
+                    </section>
+                  
+                </main>
+            </div>
+            <!-- right side -->
+            <aside class="right-side">
+                <section class="about-myself">
+                    <div class="sub-header">
+                        <img src="./images/icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+                        <h3>About Myself</h3>
+                    </div>
+                    <p>Learner who is curious about gaining new knowledge and excited about coding. Currently working at
+                        Upwork freelancing platform..</p>
+                </section>
+
+                <section class="courses">
+                    <div class="sub-header">
+                        <img src="./images/icons/courses.svg" alt="Courses" width="30" height="30">
+                        <h3>Courses</h3>
+                    </div>
+                    <ul>
+                        <li>HTML and CSS Tutorials on w3schools</li>
+                        <li>JavaScript on freecodecamp.org</li>
+                        <li>RS Schools Course «JavaScript/Front-end.» (in progress)</li>
+                    </ul>
+                </section>
+                <section  id="example" class="code-example">
+                    <div class="sub-header">
+                        <img src="./images/icons/code.svg" alt="Code Icon" width="30" height="30">
+                        <h3>Code example</h3>
+                    </div>
+                    <p>Pass a callback to PHP's array_map() function to calculate the length of every string in an
+                        array:</p>
+                    <pre>
+            <code>
+                function my_callback($item) {
+                    return strlen($item);
+                  }
+                  
+                  $strings = ["apple", "orange", "banana", "coconut"];
+                  $lengths = array_map("my_callback", $strings);
+                  print_r($lengths);</code>
+                </pre>
+                </section>
+                <section class="code-example">
+                    <div class="sub-header">
+                        <img src="./images/icons/code.svg" alt="Code Icon" width="30" height="30">
+                        <h3>Projects</h3>
+                    </div>
+                    <ul class="flex ml-12">
+                        <li class="mr-4">
+                            <a target="_blank" href="https://age-abbruch.de/">Age</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://behzodjon.github.io/rsschool-cv/">Portfolio cv</a>
+                        </li>
+                    </ul>
+                    
+                </section>
+
+                <section  id="languages" class="courses">
+                    <div class="sub-header">
+                        <img src="./images/icons/courses.svg" alt="Courses" width="30" height="30">
+                        <h3>Languages</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="language-name">English</p>
+                            <p>Upper-intermediate</p>
+                        </li>
+                        <li>
+                            <p class="language-name">Russian</p>
+                            <p>Basic</p>
+                        </li>
+                        <li>
+                            <p class="language-name">Uzbek</p>
+                            <p>Native</p>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+
+        <!-- footer section -->
+        <footer>
+            <a class="my-github" href="https://github.com/behzodjon">
+                <img class="github-icon" src="./images/icons/github.svg" alt="Github Icon" width="26" height="26">
+                <p>Visit my GitHub</p>
+            </a>
+            <p>© 2022</p>
+            <a href="https://rs.school/js-en/">
+                <img src="./images/icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
