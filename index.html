@@ -12,6 +12,15 @@
 
 <body>
     <div class="container-centered">
+        <nav class="nav">
+            <ul class="nav-list flex ">
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#example" class="nav-link">Example</a></li>            
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              </ul>
+        </nav>
         <div class="flex">
             <!-- left side -->
             <div class="left-side">
@@ -23,7 +32,7 @@
                 </header>
                 <!-- main -->
                 <main>
-                    <section class="contacts">
+                    <section  id="contacts" class="contacts">
                         <h3>Contacts</h3>
                         <ul>
                             <li>
@@ -45,7 +54,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="skills">
+                    <section  id="skills" class="skills">
                         <h3>Skills</h3>
                         <ul>
                             <li>HTML5, CSS3</li>
@@ -57,15 +66,8 @@
                             <li>Laravel(PHP framework)</li>
                         </ul>
                     </section>
-                    <section class="projects">
-                        <h3>Projects</h3>
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://age-abbruch.de/">Age</a>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="education">
+                 
+                    <section id="education" class="education">
                         <h3>Education</h3>
                         <ul>
                             <li>
@@ -73,23 +75,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="languages">
-                        <h3>Languages</h3>
-                        <ul>
-                            <li>
-                                <p class="language-name">English</p>
-                                <p>Upper-intermediate</p>
-                            </li>
-                            <li>
-                                <p class="language-name">Russian</p>
-                                <p>Basic</p>
-                            </li>
-                            <li>
-                                <p class="language-name">Uzbek</p>
-                                <p>Native</p>
-                            </li>
-                        </ul>
-                    </section>
+                  
                 </main>
             </div>
             <!-- right side -->
@@ -114,7 +100,7 @@
                         <li>RS Schools Course «JavaScript/Front-end.» (in progress)</li>
                     </ul>
                 </section>
-                <section class="code-example">
+                <section  id="example" class="code-example">
                     <div class="sub-header">
                         <img src="./images/icons/code.svg" alt="Code Icon" width="30" height="30">
                         <h3>Code example</h3>
@@ -131,6 +117,42 @@
                   $lengths = array_map("my_callback", $strings);
                   print_r($lengths);</code>
                 </pre>
+                </section>
+                <section class="code-example">
+                    <div class="sub-header">
+                        <img src="./images/icons/code.svg" alt="Code Icon" width="30" height="30">
+                        <h3>Projects</h3>
+                    </div>
+                    <ul class="flex ml-12">
+                        <li class="mr-4">
+                            <a target="_blank" href="https://age-abbruch.de/">Age</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://behzodjon.github.io/rsschool-cv/">Portfolio cv</a>
+                        </li>
+                    </ul>
+                    
+                </section>
+
+                <section  id="languages" class="courses">
+                    <div class="sub-header">
+                        <img src="./images/icons/courses.svg" alt="Courses" width="30" height="30">
+                        <h3>Languages</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="language-name">English</p>
+                            <p>Upper-intermediate</p>
+                        </li>
+                        <li>
+                            <p class="language-name">Russian</p>
+                            <p>Basic</p>
+                        </li>
+                        <li>
+                            <p class="language-name">Uzbek</p>
+                            <p>Native</p>
+                        </li>
+                    </ul>
                 </section>
             </aside>
         </div>

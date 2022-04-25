@@ -2,6 +2,9 @@
     box-sizing: border-box;
     background-color: #f5f5f5;
   }
+  html {
+    scroll-behavior: smooth; 
+  }
   
   .container-centered {
     margin: 20px auto;
@@ -200,4 +203,21 @@
   }
   .flex{
       display: flex;
+  }
+  .mr-4{
+    margin-right: 1rem;
+  }
+  .ml-12{
+    margin-left: 3rem;
+  }
+  .nav-list{
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .nav-list a{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777777;
   }
